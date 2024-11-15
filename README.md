@@ -1,9 +1,9 @@
-# Proyecto The Reader's Nook
+# Proyecto El mundo de los Libros
 
- Página Web realizada como parte del proyecto final corresóndiente al curso de Introducción a la progrmación impartido por DEVF
+ Página Web realizada como parte del proyecto final corresóndiente al curso de Introducción a la progrmación impartido por DEVF.
 
  ### Tema
- El objetivo de la página es brindar algunas recomendaciones de libros acompañadas de una breve reseña para captar la atención de los usuariose invitarlos a iniciar la letura
+ El objetivo de esra página web es brindar un espacio dedicado a todos los lectores y a la vez a aquellas personas que desen adentrarse en el mundo de la lectura. Mediante la recomendación de libros que creo que te encantarán así como algunos autores famosos con estilos diferentes entre si para que puedas encontrar alguno que se relacione a tus intereses.
 
 > ### Pasos para levantar localmente el repositorio
 >
