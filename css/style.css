@@ -111,11 +111,11 @@ h3 {
 
 #recomendaciones ol li:nth-child(2n+1) {
     border: 2px solid #0f5866;
-    background-color: #71cad0;
+    background-color: #b1d0e7;
 }
 
 #recomendaciones ol li:nth-child(2n) {
-    background-color: #a3a2ec;
+    background-color: #c2f7fc;
     border: 2px solid #150080;
 }
 
@@ -134,3 +134,38 @@ h3 {
     padding-right: 30px;
 }
 
+#autores{
+    background-color: #9bd5ee;
+    margin: 15px auto;
+    padding: 15px;
+    border: 2px solid #1c4aa6;
+}
+
+table{
+    border: #150080 3px solid;
+    color: #000;
+    background-color:#d4e6ee;
+    text-align: center;
+}
+
+
+#encabezado{
+    background-color:#1c4aa6 ;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+table img{
+    width: 150px;
+    height: auto;
+    padding: 10px;
+}
+
+footer{
+    background-color: #9bd5ee;;
+    font-size: 100%;
+    border: 2px solid #1c4aa6;
+    text-align: center;
+    
+  }
