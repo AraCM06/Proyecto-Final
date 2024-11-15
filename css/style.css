@@ -56,7 +56,6 @@ nav a:hover {
     color: #ffffff;
 }
 
-
 main h1 {
     color: #0c3f6e;
 }
@@ -89,19 +88,49 @@ main h1 {
     list-style-type: none;
 }
 
-#recomendaciones h3{
+h3 {
     text-align: center;
+    padding-bottom: 10px;
 }
+
+.book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .book img {
+    max-width: 120px;
+    height: auto;
+    margin-left: 15px;
+    border: 2px solid #0f5866; 
+    padding: 5px; 
+    border-radius: 10px; 
+  }
 
 #recomendaciones ol li:nth-child(2n+1) {
     border: 2px solid #0f5866;
     background-color: #71cad0;
-    padding: 20px;
 }
 
 #recomendaciones ol li:nth-child(2n) {
     background-color: #a3a2ec;
     border: 2px solid #150080;
-    padding: 20px;
+}
+
+#recomendaciones img {
+    max-width: 120px;
+    height: auto;
+    margin: 15px;
+    border: 2px solid #0f5866;
+    padding: 5px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+#recomendaciones p {
+    text-align: justify; 
+    padding-right: 30px;
 }
 
