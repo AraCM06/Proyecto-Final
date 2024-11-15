@@ -16,7 +16,7 @@ body{
 header h1 {
     color: #ba2173;
     flex: 1;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 header img {
@@ -56,14 +56,52 @@ nav a:hover {
     color: #ffffff;
 }
 
-main {
+
+main h1 {
+    color: #0c3f6e;
+}
+
+#inicio {
     background-color: #9bd5ee;
     margin: 15px auto;
     padding: 15px;
     border: 2px solid #1c4aa6;
+    text-align: justify;
+}
+
+#recomendaciones{
+    background-color: #9bd5ee;
+    margin: 15px auto;
+    padding: 15px;
+    border: 2px solid #1c4aa6;
+    text-align: justify;
+}
+
+#nav-section{
+    text-align: center;
+    color:  #1c4aa6;
+}
+
+#recomendaciones ol {
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    gap: 11px;
+    list-style-type: none;
+}
+
+#recomendaciones h3{
     text-align: center;
 }
 
-main h2 {
-    color: #0c3f6e;
+#recomendaciones ol li:nth-child(2n+1) {
+    border: 2px solid #0f5866;
+    background-color: #71cad0;
+    padding: 20px;
 }
+
+#recomendaciones ol li:nth-child(2n) {
+    background-color: #a3a2ec;
+    border: 2px solid #150080;
+    padding: 20px;
+}
+
