@@ -1,6 +1,6 @@
 # Proyecto El mundo de los Libros
 
- Página Web realizada como parte del proyecto final corresóndiente al curso de Introducción a la progrmación impartido por DEVF.
+ Página Web realizada como parte del proyecto final corresóndiente al modulo 2 del curso impartido por DEVF.
 
  ### Tema
  El objetivo de esra página web es brindar un espacio dedicado a todos los lectores y a la vez a aquellas personas que desen adentrarse en el mundo de la lectura. Mediante la recomendación de libros que creo que te encantarán así como algunos autores famosos con estilos diferentes entre si para que puedas encontrar alguno que se relacione a tus intereses.
