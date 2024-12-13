@@ -3,10 +3,12 @@
     font-weight: 400;
     font-style: normal;
 }
+
 body{
     background-color: #FDF6E3;
     position: relative;
-    
+    display: grid;
+    grid-template-columns: 2.5% 95% 2.5%;
 }
 
 header {
@@ -16,11 +18,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 93.5%;
-    margin-left: 2.5%;
+    grid-column: 2 / 3;
     padding: 10px;
-    top: 0;
     position: sticky;
+    top: 0; 
+    z-index: 10; 
 }
 
 header h1 {
@@ -44,8 +46,7 @@ nav {
     justify-content: space-around;
     padding: 10px;
     margin-top: 2%;
-    width: 93.5%;
-    margin-left: 2.5%;
+    grid-column: 2 / 3;
 }
 
 nav ul {
@@ -79,8 +80,7 @@ main h1 {
 
 main{
     margin-top: 2%;
-    width: 95%;
-    margin-left: 2.5%;
+    grid-column: 2 / 3;
 }
 
 #autores{
@@ -180,8 +180,8 @@ tbody td:nth-child(5) {
     border: 2px solid #6B4226;
     color: white;
     position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 2.5%;
+    right: 2.5%;
     text-align: center;
 }
 
@@ -197,8 +197,7 @@ footer{
     border: 2px solid #9C6644;
     text-align: center;
     margin-top: 3%;
-    width: 95%;
-    margin-left: 2.5%;
+    grid-column: 2 / 3;
 }
 
 @media screen and (max-width: 768px) {
