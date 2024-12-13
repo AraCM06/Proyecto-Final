@@ -151,5 +151,13 @@ footer{
     margin-top: 3%;
     width: 95%;
     margin-left: 2.5%;
-  }
+}
 
+@media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+      font-size: 15px;
+      gap: 25px;
+    }
+}
