@@ -114,7 +114,7 @@ tr:nth-child(odd) {
 }
 
 th, td {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -190,13 +190,21 @@ tbody td:nth-child(5) {
     color: white;
 }
 
+.return:hover {
+    background-color: white;
+}
+
+.return:hover a {
+    color: #6B4226; 
+}
+
 footer{
     background-color: #6B4226;
     color: #FDF6E3;
     font-size: 100%;
     border: 2px solid #9C6644;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
     grid-column: 2 / 3;
 }
 
@@ -206,5 +214,39 @@ footer{
       text-align: center;
       font-size: 15px;
       gap: 25px;
+    }
+
+    header h1 {
+        font-size: 35px; 
+    }
+
+    header img {
+        width: 20%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+    
+
+    thead th:nth-child(2),
+    tbody td:nth-child(2) {
+    width: 22.5%; 
+    }
+
+    thead th:nth-child(3),
+    tbody td:nth-child(3) {
+    width: 32.5%; 
+    }
+
+    thead th:nth-child(4),
+    tbody td:nth-child(4) {
+    width: 20%; 
+    }
+
+    .return {
+        width: 120px; 
+        bottom: 5%;
+        right: 5%;
     }
 }

@@ -93,7 +93,7 @@ main{
 
 .libro-container{
     padding: 20px;
-    gap: 20px;
+    gap: 25px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -119,6 +119,12 @@ main{
     object-position: center; 
 }
 
+.libro-carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 
 .libro-info {
     padding: 15px;
@@ -128,6 +134,10 @@ main{
     color: #556B2F;
     text-align: center;
     font-size: 20px;
+}
+
+.libro-info p{
+    font-size: 16px;
 }
 
 .return{
@@ -146,14 +156,29 @@ main{
     color: white;
 }
 
+.return:hover {
+    background-color: white;
+}
+
+.return:hover a {
+    color: #6B4226; 
+}
+
+
 footer{
     background-color: #6B4226;
     color: #FDF6E3;
     font-size: 100%;
     border: 2px solid #9C6644;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 2%;
     grid-column: 2 / 3;
+}
+
+@media screen and (max-width: 1024px) {
+    .libro-carta {
+        width: 45%; 
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -163,4 +188,37 @@ footer{
       font-size: 15px;
       gap: 25px;
     }
+
+    header h1 {
+        font-size: 35px; 
+    }
+    
+    header img {
+        width: 20%;
+    }
+
+    .libro-carta {
+        width: 90%; 
+    }
+    .return {
+        width: 120px; 
+        bottom: 5%;
+        right: 5%;
+    }
+
+    .libro-carta img{
+        width: 40%;
+    }
+
+    .libro-info h3{
+        font-size: 16px;
+    }
+    
+    .libro-info p{
+        font-size: 14px;
+    }
+
 }
+
+
+
